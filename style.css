@@ -1,0 +1,147 @@
+
+body {
+    background-image: url(materijal/plava.png);
+}
+
+.uvod {
+    background-color: rgb(237, 173, 250); 
+    opacity: 0.9;
+    border:solid 2px gray;
+
+}
+
+.naslov {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    text-shadow: 2px 3px gray;
+    letter-spacing: 4px;
+}
+
+.icona {
+    float: left;
+vertical-align: baseline;
+  
+}
+
+.opis {
+    padding-left: 15px;
+}
+
+
+
+.topnav {
+    background-color: rgb(237, 173, 250);
+    overflow: hidden;
+    border: solid 2px gray;
+    
+}
+.topnav a {
+
+    float: left;
+    color: black;
+    text-align :center;
+    padding: 22px 15px;
+    text-decoration :none;
+    font-size: 17px;
+}
+.dugme{
+    float: right;
+    margin-right:10px;
+    margin-top: 8px;
+}
+.dugme2{
+    margin-top: 4px;
+    margin-left: 48px;
+    margin-bottom: 5px;
+}
+.topnav a:hover{
+    background-color: black;
+    color: rgb(237,137, 250);
+}
+
+.topnav a:active {
+    background-color: white;
+    color: rgb(237,137, 250);
+}
+.lista {
+   color:black;
+   
+}
+.tekstovi {
+    display: grid;
+    grid-template-columns: 400px 400px 400px 10px;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 10px;
+    float: left;
+    background-color:rgb(237,137, 250);
+    border: solid 2px grey;
+    width: 800px;
+    height: 800px;
+    border-radius: 10px;
+    
+}
+.grid1 {
+    float: left;
+    width: 380px;
+    height: 180px;
+    background-color: pink;
+    margin-left: 13px;
+    border-radius: 10px;
+    
+}
+.naslov2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 3px grey;
+    margin-left: 140px;
+    margin-top: 10px;
+}
+.naslov3{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 3px grey;
+    margin-left: 120px;
+}
+.grid3 {
+    float: right;
+    width: 380px;
+    height: 180px;
+    background-color: pink;
+    border-radius: 10px;
+}
+.prva {
+    float: right;
+    margin-right: 8px ;
+    
+}
+.druga {
+    float: right;
+    margin-right: 8px;
+    
+}
+.text2 {
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.uopsteno {
+    border-radius: 10px;
+    background-color: rgb(273, 173, 250);
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 80%;
+    
+}
+.cinjenica {
+    margin-left: 47px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 3px gray;
+}
+.slika{
+    margin-left: 14px;
+}

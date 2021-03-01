@@ -1,0 +1,1 @@
+alert("Ovo je keo neki pop-up iz eksternog faila");

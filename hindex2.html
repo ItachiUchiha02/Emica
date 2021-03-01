@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+<title>HTML FORME</title>
+</head>
+<body>
+    <h1>Registracija</h1>
+    
+<div>
+    <form method="get" action="Poslato.html">
+     <label for="UserName">Korisnicko ime</label>
+     <input type="text" name="UserName" id="UserName" required placeholder="Stefan">
+     <input type="submit" value="posalji">
+    <div class="dugme2">
+     <label for="UserPass">Lozinka</label>
+    <input type="password" name="UserPass" id="UserPass" required >
+    <div>
+        <label>Email</label>
+        <input type="email" name="UserEmail" id="UserEmail" readonly value="marko@provera.com">
+    </div>
+      </div>
+      <div>
+          <label for="UserCity">Mesto</label>
+          <select name="UserCity" id="UserCity">
+              <option value="1">Beograd</option>
+              <option value="2">Novi Sad</option>
+              <option value="3" selected>Nis</option>
+          </select>
+      </div>
+    </body>
+</html>
