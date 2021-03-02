@@ -1,23 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
 .topnav {
     background-color: gray;
-    text-align: center;
-    padding-right:70%;
     color: white;
-
+    /* padding-right: 70%; ovo je mnogo razmisljanja, a i ima razlog zasto se padding ovde ne radi sa procentima, lakse je na sledeci nacin*/
+    /* padding-left: 20px; medjutim posto u dizajnu oko slova ima i gore i dole neki prostor treba nam padding i gore i dole pa cemo zato staviti ovako*/
+    padding: 5px 0 5px 20px;
 }
-.topnav2 {
 
-background-color:white;
-color: pink;
-font-family: Arial, Helvetica, sans-serif;
-height: 20px; 
+.topnav p {
+    /* posto p i h1,h2,h3,h4,h5 imaju svoje margine gore i dole automatski, najbolja praksa je da ih prvo ugasis, pa ces videti da li ti trebaju  */
+    margin: 0;
+}
+
+.topnav2 {
+    background-color:white;
+    color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 20px; ovo je skroz okej, ali posto ti treba prostor i levo desno, ovu visinu mozes takodje da dobijes paddingom gore i dole  */
+    padding: 5px 20px;
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.logo {
+    display: inline-block;
 }
 
 .topnav2 a {
-        float: right;
-        color: black;
-        text-align :center;
-        font-family: Arial, Helvetica, sans-serif;
-       
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;       
+}
+
+.topnav-right {
+    float: right;
 }
     
