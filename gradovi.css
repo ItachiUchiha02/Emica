@@ -8,6 +8,7 @@ body {
 
 p {
     margin: 0;
+
 }
 
 .topnav {
@@ -16,17 +17,19 @@ p {
     /* padding-right: 70%; ovo je mnogo razmisljanja, a i ima razlog zasto se padding ovde ne radi sa procentima, lakse je na sledeci nacin*/
     /* padding-left: 20px; medjutim posto u dizajnu oko slova ima i gore i dole neki prostor treba nam padding i gore i dole pa cemo zato staviti ovako*/
     padding: 5px 0 5px 20px;
+    
+
 }
 
 .topnav p {
     /* posto p i h1,h2,h3,h4,h5 imaju svoje margine gore i dole automatski, najbolja praksa je da ih prvo ugasis, pa ces videti da li ti trebaju  */
-    margin: 0;
+    margin-left: 10%;
 }
 
 .topnav2 {
     background-color:white;
     color: pink;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     /* height: 20px; ovo je skroz okej, ali posto ti treba prostor i levo desno, ovu visinu mozes takodje da dobijes paddingom gore i dole  */
     padding: 5px 20px;
 }
@@ -39,14 +42,81 @@ p {
 
 .logo {
     display: inline-block;
+    margin-left: 10%;
 }
 
 .topnav2 a {
     color: black;
-    font-family: Arial, Helvetica, sans-serif;       
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;       
 }
 
 .topnav-right {
     float: right;
+    margin-right: 2%;
 }
+
+.image-container {
+    position: relative;
+    height: 360px;
+    overflow: hidden;
+    margin: 0%;
+}
+
+.image-container img {
+    width: 100%;
+    position: relative;
+    transform: translate(0, -50%);
+}
+.image-information{
+    position:absolute;
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 0%;
+    top: 150px;
+    left:450px
     
+}
+.image-information p
+{
+color: white;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-left: 70px;
+font-size: 25px;
+}
+
+.image-information h1 {
+color: white;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+margin-left: 20px;
+}
+
+.image-information button{
+     
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 140px;
+    margin-top: 10px;
+    background-image: url(img/oblak1.jpg);
+    color: white;
+    letter-spacing: 3px;
+
+}
+.flex-example {
+    display: flex;
+    flex-direction: row;
+    width: 1024px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+   
+}
+.flex h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 500px;
+
+}
+.flex p {
+background-color: pink;
+margin-left: 480px;
+
+}
