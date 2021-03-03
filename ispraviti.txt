@@ -1,0 +1,5 @@
+1. headeri isti razmak levo i desno
+// padding i margina se vise ne koriste u procentima
+// kad se stavlja absolute, u 99% slucajeva se ne koristi margina, vec koristis top, right, bottom, left
+2. ispraviti poziciju image-information
+// da bi se absolute postavio po sredini koriste se podaci iz typography
