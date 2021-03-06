@@ -38,6 +38,8 @@ p {
     content: "";
     clear: both;
     display: table;
+    
+    
 }
 
 .logo {
@@ -52,7 +54,7 @@ p {
 
 .topnav-right {
     float: right;
-    margin-right: 2%;
+    padding-left: 100px;
 }
 
 .image-container {
@@ -82,6 +84,7 @@ color: white;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 margin-left: 70px;
 font-size: 25px;
+
 }
 
 .image-information h1 {
@@ -119,4 +122,70 @@ margin-left: 20px;
 background-color: pink;
 margin-left: 480px;
 
+}
+
+.footer{
+    display: flex;
+    background-color:grey;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-top: solid 7px grey;
+    position: absolute;
+    width: 100%;
+    
+}
+.flex1{
+    margin-left: 70px;
+    width: 200px;
+    color: white;
+    margin-top: 3px;
+    
+}
+.flex1 p{
+    margin-top: 10px;
+}
+.naslov{
+    color: pink;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.flex2{
+    margin-top: 3px;
+}
+.flex2 a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+.flex2 p{
+    
+    color: pink;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+    
+}
+.flex3{
+    margin-top: 3px;
+}
+
+.naslov2{
+    color: pink;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+}
+.tekstic{
+    color: white;
+    margin-top: 10px;
+}
+.dugme2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:grey;
+    letter-spacing: 3px;
+    border:solid 2px white;
+}
+.imejl{
+    border:solid 2px white;
+    background-color:grey;
+    
 }
