@@ -16,22 +16,18 @@ p {
     color: white;
     /* padding-right: 70%; ovo je mnogo razmisljanja, a i ima razlog zasto se padding ovde ne radi sa procentima, lakse je na sledeci nacin*/
     /* padding-left: 20px; medjutim posto u dizajnu oko slova ima i gore i dole neki prostor treba nam padding i gore i dole pa cemo zato staviti ovako*/
-    padding: 5px 0 5px 20px;
+    padding: 5px 120px;
     
 
 }
 
-.topnav p {
-    /* posto p i h1,h2,h3,h4,h5 imaju svoje margine gore i dole automatski, najbolja praksa je da ih prvo ugasis, pa ces videti da li ti trebaju  */
-    margin-left: 10%;
-}
 
 .topnav2 {
     background-color:white;
     color: pink;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     /* height: 20px; ovo je skroz okej, ali posto ti treba prostor i levo desno, ovu visinu mozes takodje da dobijes paddingom gore i dole  */
-    padding: 5px 20px;
+    
 }
 
 .clearfix:after {
@@ -39,22 +35,24 @@ p {
     clear: both;
     display: table;
     
-    
 }
 
 .logo {
     display: inline-block;
-    margin-left: 10%;
+    padding: 5px 0px 5px 120px;
+    
+
 }
 
 .topnav2 a {
     color: black;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;       
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;   
+      
 }
 
 .topnav-right {
     float: right;
-    padding-left: 100px;
+    padding-right: 120px;
 }
 
 .image-container {
@@ -120,19 +118,18 @@ margin-left: 20px;
 }
 .flex p {
 background-color: pink;
-margin-left: 480px;
-
+padding: 3px 510px ;
+border-width: 2px;
 }
 
 .footer{
     display: flex;
     background-color:grey;
     justify-content: space-between;
-    margin-top: 50px;
+    padding: 10px 120px 0px 120px;
     border-top: solid 7px grey;
     position: absolute;
-    width: 100%;
-    
+    width: 100%;   
 }
 .flex1{
     margin-left: 70px;
