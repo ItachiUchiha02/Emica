@@ -1,0 +1,111 @@
+/* GLOBALNI STILOVI */
+
+body {
+    margin: 0;
+}
+
+h4 {
+    margin: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* HEADER STILOVI */
+
+.header {
+    /* PRVI NACIN ZA RASPORED I SIRINU */
+    /* padding: 10px 80px; */
+    /* DRUGI NACIN ZA RASPORED I SIRINU */
+    /* max-width: 1400px;
+    width: 100%;
+    margin: 0 auto; */
+    padding: 10px 0;
+    background: #cccccc;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.header-inner-container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* .logo, .topnav {
+    display: inline-block;
+} */
+
+.logo {
+    float: left;
+}
+
+.topnav {
+    float: right;
+}
+
+/* MAIN STILOVI */
+
+.main {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main .title {
+    text-align: center;
+}
+
+.main .title h1 {
+    color: red;
+}
+
+.main .content p {
+    color: blue;
+}
+
+.main .content .second-text {
+    color: green;
+}
+
+/* FOOTER STILOVI */
+
+.footer {
+    background-color: #cccccc;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-inner-container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer-item {
+    display: inline-block;
+    margin-right: 120px;
+    vertical-align: top;
+}
+
+.footer-first {
+    width: 500px;
+}
+
+.footer-item .title p {
+    color: red;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer-second .content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
