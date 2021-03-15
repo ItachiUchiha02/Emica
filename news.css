@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-color: rgba(230, 230, 230, 0.705);
 }
 
 .clearfix:after {
@@ -65,17 +66,67 @@ body{
 .main-header h2,p {
  margin: 0px;   
 }
+
 .main{
-    float: left;
-    width: 500px;
-    padding: 10px 400px;
-}
-.main p{
-    text-align: center;
+    max-width: 760px;
+    width: 100%;
+    padding: 0px 20px;
+    margin: 30px auto;
+    box-sizing: border-box;
+    background-color: white;
+
+    
 }
 .naslov{
     text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 8px 0px;
 }
-.naslov2{
+.list{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+.section{
+    padding: 8px 0px;
+}
+.section2 ul{
+    padding: 8px 0;
+}
+
+.link{
+    display: inline-block;
+    width: 100;
+    padding: 8px 0 ;
+}
+.social-media-icon{
+    
     text-align: center;
+    width: 720;
+    padding: 8px 0px;
+}
+.social-media-icon a{
+    padding: 0 85px;
+}
+
+.link input{
+    width: 720;
+    padding: 8px 0;
+    margin-bottom: 10px;
+}
+
+.section3 button{
+    background-color: black;
+    color: white;
+    width: 720;
+    padding: 8px 0;
+    margin-top: 10px;
+}
+.section4{
+    margin-top: 10px;
+}
+.area{
+    width: 720;
+    height: 180;
 }
