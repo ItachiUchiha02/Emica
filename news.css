@@ -147,8 +147,9 @@ p {
 
 .main-container {
 	float: left;
-	width: 76%;
+	width: 70%;
 	background-color: white;
+	padding: 10px 20px;
 }
 
 .sidebar-container {
@@ -162,9 +163,12 @@ p {
 .sidebar-container img  {
 	width: 100px;
 }
-.blogs p{
+
+.text {
 	display: inline-block;
+	vertical-align: top;
 }
-.text{
-	display: inline-block;
+.item-img{
+	display:inline-block;
+	vertical-align: top;
 }
