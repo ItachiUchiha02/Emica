@@ -26,3 +26,11 @@ Osnovne karakteristike su:
     3. padding: 0 20px; // Sluzi za detaljno centriranje main div-a
     4. margin: 30px auto; // Osnovno centriranje po sredini ekrana, i odvajanje od header-a i footer-a
     5. box-sizing: border-box; // Sluzi za fiksiranje granica main div-a, da padding koji smo postavili ne ide van granica nasih 1380px sirine
+
+
+    * JEDAN OD NACINA RASPOREDJIVANJA DIVA
+       display: flex;
+       justify-content: space-between;
+       width: 70%;
+       margin: 0 auto;
+}   *
