@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0px;
 	background-color: rgba(230, 230, 230, 0.705);
@@ -147,28 +151,119 @@ p {
 
 .main-container {
 	float: left;
-	width: 70%;
+	width: 68%;
 	background-color: white;
 	padding: 10px 20px;
+	box-sizing: border-box;
+}
+
+.main-container .section {
+	margin-bottom: 16.2px;
 }
 
 .sidebar-container {
 	float: right;
-	width: 23%;
+	width: 29%;
 	background-color: white;
+	padding: 10px 18px;
 }
 .blogs img {
 	width: 100px;
 }
-.sidebar-container img  {
-	width: 100px;
+.blogs .date {
+    color: yellow;
 }
-
+.advertising img{
+	width: 100%;
+}
+.advertising p {
+    text-align: left;
+}
+.feed p {
+    text-align: left;
+}
+.latest p{
+	text-align: left;
+}
 .text {
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: middle;
+	font-weight: 700;
+	padding-left: 10x;
 }
 .item-img{
 	display:inline-block;
-	vertical-align: top;
+	vertical-align: middle;
 }
+.item {
+   margin-bottom: 5px;
+}
+
+.flex-example {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.flex-example div {
+	width: 80px;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+.flex-example img {
+	width: 100%;
+	height: 80px;
+}
+
+.footer {
+	background-color: black;
+}
+	
+.title {
+	font-size: 20px;
+	font-weight: bold;
+	color: yellow;
+}
+.foot-flex1 {
+	color: white;
+	width: 67%;
+}
+
+.foot-flex1 p {
+	line-height: 20px;
+}
+
+.foot-flex2 {
+	width: 14%;
+}
+
+.foot-flex3 {
+	width: 14%;
+}
+
+
+.footer-container {
+	max-width: 1024px;
+	width: 100%;	
+	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 85px 0;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-container a{
+	color: white;
+	text-decoration: none;
+	display: block;
+	margin-bottom: 3px;
+}
+
+.footer-container .title {
+	border-bottom: 1px solid white;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
