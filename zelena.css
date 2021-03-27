@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+margin:0%;
+background-image: url("Emica/Emic-slike/trava4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(144, 160, 111);
+    opacity: 0.5;
+    z-index: -1;
+}
+p{
+    margin: 0%;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.header {
+	max-width: 1024px;
+	width: 100%;
+	padding: 0px;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.header-inner-container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.logo,
+.social-media{
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.header-left {
+	float: left;
+}
+
+.header-right {
+	float: right;
+	
+}
+.logo{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+	max-width: 1024px;
+	width: 100%;
+	padding: 0px;
+	margin: 30px auto;
+	box-sizing: border-box;
+    background-color: white;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.meen-inf1{
+    color: white;
+    background-color: rgb(46, 133, 82);
+    
+}
+.meen-inf2{
+    color: white;
+    background-color:rgb(59, 169, 184);
+   
+}
+.meen-left{
+    width: 35%;
+    float: left;
+}
+.meen-right{
+    width:65% ;
+    float: right;
+    height: 284px;
+}
+.meen-item {
+    padding: 35px 43px;
+} 
+.meen-item p{
+    margin-bottom: 5px;
+}
+.iguana{
+    height: 330px;
+    overflow: hidden;
+   
+}
+.iguana img{
+    position: relative;
+    top: -85px;
+}
+.naslov{
+    font-size: 20;
+}
+.dugme{
+    background-color: rgb(181, 228, 13);
+    color: black;
+    border-radius: 15px;
+}
+.siedbar-mini{
+    box-sizing: border-box;
+    text-align:center;
+    padding: 30px 0;
+    margin: 0 auto;
+}
+.title{
+    font-size: 20;
+    
+}
+.siedbar-media {
+    display: flex;
+   justify-content: space-evenly;
+    width: 100%;
+    padding: 25px 0px;
+}
+.social{
+    width: 300px;
+    text-align: center;
+    
+}
+
+.siedbar-media .first-media2{
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+.library-item{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 220px;
+    margin: 0 auto;
+    background-color:rgb(181, 228, 13); ;
+
+}
+.panorama {
+    display: inline-block;
+    padding: 15px 10px; 
+    
+}
+.panorama p{
+    text-align: center;
+     color: wheat;
+     font-size: 20;
+}
+
+.galery{
+    margin: 15px;
+}
+.panorama img{
+    width: 195px;
+    height: 100px;
+    
+}

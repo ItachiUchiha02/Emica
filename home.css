@@ -268,4 +268,43 @@ p {
 	padding-bottom: 20px;
 	margin-bottom: 20px;
 }
+.blogic {
+	width: 75%;
+    margin: 0 auto;
+    background: white;
+    top: -40px;
+    position: relative;
+	padding: 20px;
+	border-radius: 10px;
+}
+.blogic p {
+    margin-top:10px;
+	text-align: justify;
+	text-justify: inter-word;
+	
+	
+}
+.img-container {
+	position: relative;
+	margin: 10px auto;
+}
+
+.laptop{
+    width: 100%;
+	
+}
+.kafa{
+	width: 100%;
+}
+.titlovcic .naslov{
+	text-align: center;
+	font-size: 30px;
+    font-weight: bold;
+    padding: 8px 0px;
+	margin: 0px;
+}
+.linkic{
+	text-align: center;
+	padding-top: 20px;
+}
 
