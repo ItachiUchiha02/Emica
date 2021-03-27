@@ -4,12 +4,17 @@
 
 body {
 margin:0%;
-background-image: url("Emica/Emic-slike/trava4.jpg");
+background-image: url("./Emic-slike/trava4.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
 }
 
-.overlay {
+html {
+    position: relative;
+}
+
+.overlay::after {
+    content: "";
     position: absolute;
     width: 100%;
     height: 100%;
@@ -17,6 +22,7 @@ background-image: url("Emica/Emic-slike/trava4.jpg");
     left: 0;
     background-color: rgb(144, 160, 111);
     opacity: 0.5;
+    top: 0;
     z-index: -1;
 }
 p{
@@ -146,7 +152,7 @@ p{
 
 .library-item{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     height: 220px;
     margin: 0 auto;
