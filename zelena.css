@@ -75,6 +75,7 @@ p{
 	margin: 30px auto;
 	box-sizing: border-box;
     background-color: white;
+    margin-bottom: 0px;
 }
 .clearfix:after {
     content: "";
@@ -177,4 +178,102 @@ p{
     width: 195px;
     height: 100px;
     
+}
+.turist-container{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    height: 360px;
+    border: solid 1px grey;
+}
+/*.turist-post{
+    display: inline-block;
+}
+*/
+.turist{
+    padding: 25px 10px;
+  
+}
+.turist-top {
+    width: 50%;
+    float: left;
+    padding: 25px;
+}
+.turist-right{
+    height: 165px;
+    width: 50%;
+    float: right;
+}
+
+.pesak img{
+    width:100% ;
+    position: relative;
+    height: 180px;
+}
+.titl{
+    font-size: 20;
+}
+.read{
+    color: white;
+    background-color:rgb(59, 169, 184);
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.turist-bottom{
+    width: 50%;
+    float: right;
+    padding: 25px;
+}
+.bottom-new{
+    display: inline-block;
+
+}
+.vikend{
+    height: 165px;
+    width: 50%;
+    float: left;
+}
+.planina img{
+    width: 100%;
+    position: relative;
+    height: 180px;
+    overflow: hidden;
+}
+.footer-container{
+    max-width: 1024px;
+	width: 100%;
+	margin: 0px auto;
+	box-sizing: border-box;
+    background-color:rgb(80, 117, 80);
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+.foot-titlic{
+    font-size: 20;
+}
+.footic{
+    color:white;
+}
+.footboot{
+    display: inline-block;
+    background-color:rgb(181, 228, 13); 
+    color:black;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    margin-left: 0px;
+}
+.footic input{
+    display: inline-block;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-right: 0px;
+}
+.inputic{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+.footic p{
+margin-bottom: 5px;
 }
