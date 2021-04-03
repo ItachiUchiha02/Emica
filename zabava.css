@@ -1,0 +1,63 @@
+* body{
+box-sizing: border-box;
+margin: 0%;
+padding: 0%;
+}
+.header{
+    width: 100%;
+}
+.header-container{
+    width: 100%;
+    overflow: hidden;
+    margin: 0% auto;
+    height: 100px;
+}
+.header-container img{
+    position: relative;
+    top: -850;
+}
+.fact{
+    background-color: rgb(252, 143, 71);
+
+}
+.podnaslov{
+    margin: 0%;
+    text-align: center;
+    padding: 15px 70px;
+}
+.naslov{
+    margin: 0%;
+    font-size: 20;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+}
+.fact2{
+    background-color: white;
+}
+.factorijum p{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    padding: 15px 70px;
+}
+.galery-post{
+    background-color: rgb(68, 66, 66);
+   
+}
+.galery-container{
+   margin: 0px auto;
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.pic-flex{
+    overflow: hidden;
+    width: 500px;
+    height: 500px;
+}
+.pic-flex img{
+    width: 100%;
+}
