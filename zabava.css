@@ -48,16 +48,20 @@ padding: 0%;
 .galery-container{
    margin: 0px auto;
     display: flex;
-    max-width: 1280px;
+    max-width: 1024px; /* Uvek mozes da promenis velicinu, smanjio sam je sad, jer ako bi povecali, slike ne bi bile lepe. Ostale div-ove ne mora da menjas na ovu sirinu */
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 20px; /* Stavljeno da bi se slike odvojile od gornje ivice */
 }
 .pic-flex{
     overflow: hidden;
-    width: 500px;
-    height: 500px;
+    width: 500px;   /* U dizajnu slike nisu kockaste nego pravougle pa su width i height razliciti*/
+    height: 300px;  
+    margin-bottom: 20px; /* Ovim odvajamo gornji red slika od donjih*/
 }
 .pic-flex img{
     width: 100%;
+    position: relative; /*M ora biti relativne pozicije kako bi moglo da se manipulise njome unutar pic-flex div-a */
+    height: 300px; /* Posto slike nisu istih velicina, a nama treba konkretno neka velicina da bi se slagale, moramo ih fiksirati. ovo nije dobra praksa, ali ako nemas velike slike, na ovaj nacin se resava problem*/
 }
